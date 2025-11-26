@@ -13,7 +13,7 @@ if name == "ben" or name == "BEN" or name == "Ben":
     print("oh so you are one of those good ben's i see.... well welcome " + name + "\n\n\n")
 else:
     print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
-
+#menu display
 menu = "black coffee, cappuccino, espresso, latte, frappuccino"
 
 print(name + " , what would you like form our menu? here is what we are serving.\n"
