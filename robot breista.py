@@ -38,7 +38,7 @@ else:input("sorry we dont have that here, would you like somthing else from the 
 price = 8
 
 quantity = input("how many coffees would you like\n")
-
+#total calculation
 total = price * int(quantity)
 
 print("thank you. your total is: $" + str(total) )
