@@ -5,12 +5,12 @@ name = input("what is your name?\n")
 
 #if evil ben is here kick him out
 
-if name == "ben" or name == "BEN" or name == "Ben":
+if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev":
     evil_status = input("are you evil?\n")
     if evil_status == "yes":
-        print("get out evil " + name + " you are not welcome here!!!!!!")
+        print("get out evil"  + name +  " you are not welcome here!!!!!!")
         exit()
-    print("oh so you are one of those good ben's i see.... well welcome " + name + "\n\n\n")
+    print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n\n")
 else:
     print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
 
