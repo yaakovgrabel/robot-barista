@@ -39,13 +39,19 @@ else:
 
 
 
-quantity = input("how many coffees would you like\n")
-#total calculation
-total = price * int(quantity)
+while True:
+    quantity = int(input("how many coffees would you like\n"))
 
-print("thank you. your total is: $" + str(total) )
+    if quantity <= 0:
+        print("sorry you cant order less than 1 coffee")
+    else:
+        #total calculation
+        total = price * quantity
+        break
 
-print("sounds good " + name + " we will have your " + quantity + " " + order + " ready for you in a momnet")
+print("thank you. your total is: $" + str(total))
+
+print("sounds good " + name + " we will have your " + str(quantity) + " " + order + " ready for you in a momnet")
 
 
 
