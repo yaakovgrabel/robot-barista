@@ -20,7 +20,7 @@ else:
 menu = "black coffee, cappuccino, espresso, latte, frappuccino"
 
 
-print(name + "what would you like form our menu? here is what we are serving.\n" + menu)
+print(name + " what would you like form our menu? here is what we are serving.\n" + menu)
 order = input()
     
 if order == "frappuccino":
