@@ -38,7 +38,6 @@ else:
     input("sorry we dont have that here, would you like somthing else from the menu? here is what we are serving\n" + menu + "\n")
 
 
-price = 8
 
 quantity = input("how many coffees would you like\n")
 #total calculation
