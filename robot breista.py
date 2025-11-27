@@ -18,24 +18,24 @@ else:
 #menu display
 menu = "black coffee, cappuccino, espresso, latte, frappuccino"
 
-print(name + " , what would you like form our menu? here is what we are serving.\n"
-+ menu)
-#pricing and order taking
+while True:
 
-order = input()
+    print(name + " , what would you like form our menu? here is what we are serving.\n" + menu)
+    order = input()
 
-if order == "frappuccino":
-    price = 13
-elif order == "black coffee":
-    price = 3
-elif order == "cappuccino":
-    price = 10
-elif order == "espresso":
-    price = 5
-elif order == "latte":
-    price = 9
-else:
-    input("sorry we dont have that here, would you like somthing else from the menu? here is what we are serving\n" + menu + "\n")
+    if order == "frappuccino":
+        price = 13
+    elif order == "black coffee":
+        price = 3
+    elif order == "cappuccino":
+        price = 10
+    elif order == "espresso":
+        price = 5
+    elif order == "latte":
+        price = 9
+    elif order != "frappuccino" or "black coffee" or "cappuccino" or "espresso" or "latte":   
+        input("sorry we dont have that here, would you like somthing else from the menu? here is what we are serving\n" + menu + "\n")
+    break
 
 
 
