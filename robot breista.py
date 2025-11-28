@@ -7,8 +7,9 @@ name = input("what is your name?\n")
 
 if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev":
     evil_status = input("are you evil?\n")
-    if evil_status == "yes":
-        print("get out evil"  + name +  " you are not welcome here!!!!!!")
+    good_deed = int(input("how meny good deeds have you done today?\n"))
+    if evil_status == "yes" and good_deed < 4:
+        print("get out evil "  + name +  " you are not welcome here!!!!!!")
         exit()
     print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n\n")
 else:
@@ -37,7 +38,7 @@ if order == "latte":
     whipped_cream = input("would you like whipped cream on that?\n")
     if whipped_cream == "yes":
         price += 1.5
-        print(" got it I have added whipped cream added")
+        print("got it I have added whipped cream added")
     else:
         print("no whipped cream got it")
 
