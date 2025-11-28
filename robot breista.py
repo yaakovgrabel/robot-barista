@@ -37,7 +37,7 @@ if order == "latte":
     whipped_cream = input("would you like whipped cream on that?\n")
     if whipped_cream == "yes":
         price += 1.5
-        print("whipped cream added")
+        print(" got it I have added whipped cream added")
     else:
         print("no whipped cream got it")
 
