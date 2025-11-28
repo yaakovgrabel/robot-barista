@@ -33,6 +33,17 @@ elif order == "espresso":
     price = 5
 elif order == "latte":
     price = 9
+if order == "latte":
+    whipped_cream = input("would you like whipped cream on that?\n")
+    if whipped_cream == "yes":
+        price += 1.5
+        print("whipped cream added")
+    else:
+        print("no whipped cream got it")
+
+else:
+    print("sorry we dont have that here")
+    
     
 
 
