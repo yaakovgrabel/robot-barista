@@ -17,6 +17,7 @@ if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev":
         
     elif evil_status == "yes" and good_deed >= 4:
         print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n")
+        print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
 else:
     print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
 
@@ -42,7 +43,7 @@ if order == "latte":
     whipped_cream = input("would you like whipped cream on that?\n")
     if whipped_cream == "yes":
         price += 1.5
-        print("got it I have added whipped cream")
+        print("got it I have added whipped cream added")
     else:
         print("no whipped cream got it")
 
