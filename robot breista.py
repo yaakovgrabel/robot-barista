@@ -1,9 +1,9 @@
-#lets blild a robaot barista 
+# Let's build a robot barista 
 
 print("\n\n\nHello welcome to yaakov coffee!!!!!!!!!!!!!!!!")
 name = input("what is your name?\n")
 
-#if evil ben is here kick him out
+#if evil Ben is here, kick him out
 
 if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev" or name == "Ima":
     evil_status = input("are you evil?\n")
