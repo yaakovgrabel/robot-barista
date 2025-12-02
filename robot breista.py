@@ -5,16 +5,21 @@ name = input("what is your name?\n")
 
 #if evil ben is here kick him out
 
-if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev":
+if name == "ben" or name == "BEN" or name == "Ben" or name == "shalev" or name == "Ima":
     evil_status = input("are you evil?\n")
-    good_deed = int(input("how meny good deeds have you done today?\n"))
+    if evil_status == "no":
+        print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n\n")
+    else:
+        good_deed = int(input("how many good deeds have you done today?\n"))
     if evil_status == "yes" and good_deed < 4:
         print("get out evil "  + name +  " you are not welcome here!!!!!!")
         exit()
-    print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n\n")
+        
+    elif evil_status == "yes" and good_deed >= 4:
+        print("oh so you are one of those good " + name +" i see.... well welcome " + name + "\n\n")
+        print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
 else:
     print("Hello " + name +" ,\nthank you so much for coming in today\n\n\n")
-
 
 #menu display
 
