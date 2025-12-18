@@ -37,6 +37,13 @@ elif order == "cappuccino":
     price = 10
 elif order == "espresso":
     price = 5
+if order == "espresso":
+    milk = input("would you like  frothed milk with that?\n")
+    if milk == "yes":
+        price += 1
+        print("got it I have added frothed milk")
+    else:
+        print("no frothed milk got it")
 elif order == "latte":
     price = 9
 if order == "latte":
@@ -47,8 +54,7 @@ if order == "latte":
     else:
         print("no whipped cream got it")
 
-else:
-    print("sorry we dont have that here")
+
     
     
 
