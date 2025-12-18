@@ -28,7 +28,7 @@ menu = "black coffee, cappuccino, espresso, latte, frappuccino"
 
 print(name + " what would you like form our menu? here is what we are serving.\n" + menu)
 order = input()
-    
+#order processing
 if order == "frappuccino":
     price = 13
 elif order == "black coffee":
