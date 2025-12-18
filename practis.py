@@ -9,3 +9,6 @@ supplies.insert(-1, "bug spray")
 supplies.insert(-1, "bidae")
 print(supplies)
 
+camp_site.insert(2, "fallen log")
+print(camp_site)
+
