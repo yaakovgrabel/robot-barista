@@ -7,8 +7,13 @@ camp_site = ["crystal lake", 404, 89.3,True]
 #print(bernard)
 supplies.insert(-1, "bug spray")
 supplies.insert(-1, "bidae")
+
+supplies.pop(0)
+
+supplies.pop(0)
+
+
 print(supplies)
 
 camp_site.insert(2, "fallen log")
 print(camp_site)
-
